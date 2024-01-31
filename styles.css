@@ -55,6 +55,42 @@ body {
   height: 100%;
 }
 
+
+.rules-container {
+  text-align: left; /* Change to left alignment */
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  color: #293251; /* Set text color to dark pink */
+}
+
+.rules-header {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.rules-list {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+}
+
+.rules-list li::before {
+  content: '★ ';
+  color: #f00;
+  margin-right: 0.5rem; /* Add margin to separate the star from the text */
+}
+
+.rules-list li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+/* Rest of the CSS remains unchanged */
+
+
+
 .score {
   display: flex;
   flex-direction: column;

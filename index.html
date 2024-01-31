@@ -3,16 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
     <link rel="stylesheet" href="styles.css" />
     <script src="app.js" defer></script>
-
     <title>Frontend Mentor | Rock, Paper, Scissors</title>
   </head>
   <body class="preload">
@@ -62,16 +55,37 @@
     <div class="modal">
       <div class="modal__container">
         <header class="modal__header">
-          <h2 class="modal__heading">rules</h2>
+          <h1 class="modal__heading">Rules</h1>
           <button class="close-btn">
             <img src="./images/icon-close.svg" alt="Close Button" />
           </button>
         </header>
-        <img
-          src="./images/image-rules.svg"
-          alt="Rules Image"
-          class="rules-img"
-        />
+        <div class="rules-container">
+          <!-- <h2 class="rules-header">Rules</h2> -->
+          <ul class="rules-list">
+            <li>Rock beats scissors scissors beat, and paper be rock.</li>
+            <li>
+              Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot”
+              or just “rock, paper, scissors.”
+            </li>
+            <li>
+              Use rock, paper, scissors to settle minor decisions or simply play to
+              pass the time
+            </li>
+            <li>
+              If both players lay down the same hand, each player lays down another
+              hand. Rock beats scissors, scissors beat paper, and paper beats rock.
+            </li>
+            <li>
+              Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot”
+              or just “rock, paper, scissors.”
+            </li>
+            <li>
+              Use rock, paper, scissors to settle minor decisions or simply play to
+              pass the time
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     <div>
@@ -81,9 +95,8 @@
     <div class="popup hidden">
       <div class="__inner">
         <div class="__message"></div>
-     <button class="popup__">OK</button>
+        <button class="popup__">OK</button>
       </div>
     </div>
-
   </body>
 </html>
